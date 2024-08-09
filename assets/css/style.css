@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.card {
+  background-color: hsl(0, 0%, 12%);
+  width: 32rem;
+  height: 48rem;
+  margin: 15rem auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 1rem;
+  font-family: "Inter", sans-serif;
+}
+
+.card .card-img {
+  padding-top: 2.9rem;
+}
+
+.card .card-img img {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+}
+
+.card .text-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  text-align: center;
+  letter-spacing: 3.5;
+}
+
+.card .text-info h1 {
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+}
+
+.card .text-info p {
+  font-weight: 600;
+  font-size: 11px;
+  color: hsl(75, 94%, 57%);
+}
+
+.card .bio {
+  color: hsl(0, 0%, 100%);
+  font-size: 11px;
+}
+
+.card .buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.card .button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
+
+.card .button {
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  padding: 1rem 8rem;
+  border-radius: 7px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+}
